@@ -68,3 +68,6 @@ e2e-tests/            --> end-to-end tests
   protractor-conf.js    --> Protractor config file
   scenarios.js          --> end-to-end scenarios to be run by Protractor
 ```
+
+## Lezioni
+ 1 - [Prima lezione: Startup della “spaghetti code” App](https://medium.com/@riccardocanella/df9217c71c9f)
