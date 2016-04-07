@@ -9,6 +9,10 @@ angular.module('myApp.users', ['ngRoute'])
     });
 }])
 
-.controller('UsersCtrl', [function() {
-
-}]);
+.controller('UsersCtrl', function($scope) {
+    $scope.users = [
+        { fullName: "Paolo Rossi", email: "primo@thecreazy.it" },
+        { fullName: "Francesco Rossi", email: "secondo@thecreazy.it" },
+        { fullName: "Gianni Rossi", email: "terzo@thecreazy.it" }
+    ];
+});
