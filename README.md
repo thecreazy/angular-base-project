@@ -55,14 +55,15 @@ app/                    --> all of the source files for the application
   app.css               --> default stylesheet
   external/             --> the folder for external files
     users.json          -->JSON of the users
-  users/                --> the users view template and logic
-    users.html            --> the partial template
-    users.js              --> the controller logic
-    users_test.js         --> tests of the controller
-  purchase/                --> the purchase view template and logic
-    purchase.html            --> the partial template
-    purchase.js              --> the controller logic
-    purchase_test.js         --> tests of the controller
+  modules/
+      users/                --> the users view template and logic
+        users.html            --> the partial template
+        module.js              --> the module logic
+        users.controllers.js   --> the controller logic
+      purchase/                --> the purchase view template and logic
+        purchase.html            --> the partial template
+        module.js              --> the module logic
+        purchase.controllers.js   --> the controller logic
   app.js                --> main application module
   index.html            --> app layout file (the main html template file of the app)
 karma.conf.js         --> config file for running unit tests with Karma
@@ -75,3 +76,5 @@ e2e-tests/            --> end-to-end tests
  1 - [Prima lezione: Startup della “spaghetti code” App](https://medium.com/@riccardocanella/df9217c71c9f)
  
  2 - [Seconda lezione: Services, Filtri e librerie esterne](https://medium.com/@riccardocanella/angularjs-creare-un-applicazione-passo-dopo-passo-2-step-b91f8872608c)
+
+ 3 - [Terza lezione:Single Responsibility, IIFE e Gulp](https://medium.com/@riccardocanella/angularjs-creare-un-applicazione-passo-dopo-passo-3-step-398ca2101e49#.3ztosdgd9)
