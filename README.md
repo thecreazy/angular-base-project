@@ -1,4 +1,4 @@
-# angular-base-project — Esempio di applicaizone angular chiara e strutturata
+# angular-base-project — Esempio d'applicaizone angular chiara e strutturata
 Il progetto è in continua fase di sviluppo e vuole essere una guida a tutti i dev che decidono di iniziar con il mondo di Angular da 0 e per quelli che conoscono già angular e vogliono imparare a strutturare meglio la propria applicazione
 
 ### Clonare il progetto
