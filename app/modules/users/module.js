@@ -7,7 +7,7 @@
 
     function configFunction($routeProvider) {
         $routeProvider.when('/users', {
-            templateUrl: 'users/users.html',
+            templateUrl: 'modules/users/users.html',
             controller: 'UsersCtrl'
         });
     }

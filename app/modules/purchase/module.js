@@ -7,7 +7,7 @@
 
     function configFunction($routeProvider) {
         $routeProvider.when('/purchase', {
-            templateUrl: 'purchase/purchase.html',
+            templateUrl: 'modules/purchase/purchase.html',
             controller: 'PurchaseCtrl'
         });
     }
