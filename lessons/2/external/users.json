@@ -1,0 +1,25 @@
+[{
+  "name": "Riccardo",
+  "surname": "Lorio",
+  "fullName": "Riccardo Lorio",
+  "age": "14",
+  "email": "riccardo@lorio.it"
+}, {
+  "name": "Filippo",
+  "surname": "Lorio",
+  "fullName": "Filippo Lorio",
+  "age": "15",
+  "email": "filippo@lorio.it"
+}, {
+  "name": "Roberto",
+  "surname": "Lorio",
+  "fullName": "Roberto Lorio",
+  "age": "44",
+  "email": "roberto@lorio.it"
+}, {
+  "name": "Ludovico",
+  "surname": "Lorio",
+  "fullName": "Ludovico Lorio",
+  "age": "35",
+  "email": "ludovico@lorio.it"
+}]
