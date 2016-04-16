@@ -1,6 +1,8 @@
-'use strict';
+(function() {
+    'use strict';
 
-angular.module('myApp.purchase')
-    .controller('PurchaseCtrl', PurchaseCtrl);
+    angular.module('myApp.purchase')
+        .controller('PurchaseCtrl', PurchaseCtrl);
 
-function PurchaseCtrl() {}
+    function PurchaseCtrl() {}
+})();

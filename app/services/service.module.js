@@ -1,2 +1,4 @@
-'use strict';
-angular.module('myApp.services', []);
+(function() {
+    'use strict';
+    angular.module('myApp.services', []);
+})();

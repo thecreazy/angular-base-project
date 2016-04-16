@@ -1,12 +1,14 @@
-'use strict';
+(function() {
+    'use strict';
 
-angular.module('myApp.purchase', [])
+    angular.module('myApp.purchase', [])
 
-.config(configFunction);
+    .config(configFunction);
 
-function configFunction($routeProvider) {
-    $routeProvider.when('/purchase', {
-        templateUrl: 'purchase/purchase.html',
-        controller: 'PurchaseCtrl'
-    });
-}
+    function configFunction($routeProvider) {
+        $routeProvider.when('/purchase', {
+            templateUrl: 'purchase/purchase.html',
+            controller: 'PurchaseCtrl'
+        });
+    }
+})();
