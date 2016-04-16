@@ -1,0 +1,20 @@
+<p>Questa pagina gestisce i nostri utenti.</p>
+<hr>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Email</th>
+            <th>Full Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="user in users">
+            <td>{{$index}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.fullName}}</td>
+            <td>{{user.age}}</td>
+        </tr>
+    </tbody>
+</table>
