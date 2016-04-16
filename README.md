@@ -67,6 +67,7 @@ app/                    --> all of the source files for the application
   app.js                --> main application module
   index.html            --> app layout file (the main html template file of the app)
 karma.conf.js         --> config file for running unit tests with Karma
+gulpfile.js          --> config file for gulp
 e2e-tests/            --> end-to-end tests
   protractor-conf.js    --> Protractor config file
   scenarios.js          --> end-to-end scenarios to be run by Protractor
@@ -77,4 +78,4 @@ e2e-tests/            --> end-to-end tests
  
  2 - [Seconda lezione: Services, Filtri e librerie esterne](https://medium.com/@riccardocanella/angularjs-creare-un-applicazione-passo-dopo-passo-2-step-b91f8872608c)
 
- 3 - [Terza lezione:Single Responsibility, IIFE e Gulp](https://medium.com/@riccardocanella/angularjs-creare-un-applicazione-passo-dopo-passo-3-step-398ca2101e49#.3ztosdgd9)
+ 3 - [Terza lezione: Single Responsibility, IIFE e Gulp](https://medium.com/@riccardocanella/angularjs-creare-un-applicazione-passo-dopo-passo-3-step-398ca2101e49#.3ztosdgd9)
