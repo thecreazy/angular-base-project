@@ -3,16 +3,24 @@
 angular.module('myApp.users', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-    $routeProvider.when('/users', {
-        templateUrl: 'users/users.html',
-        controller: 'UsersCtrl'
-    });
+  $routeProvider.when('/users', {
+    templateUrl: 'users/users.html',
+    controller: 'UsersCtrl'
+  });
 }])
 
-.controller('UsersCtrl', function($scope) {
-    $scope.users = [
-        { fullName: "Paolo Rossi", email: "primo@thecreazy.it" },
-        { fullName: "Francesco Rossi", email: "secondo@thecreazy.it" },
-        { fullName: "Gianni Rossi", email: "terzo@thecreazy.it" }
-    ];
-});
+.controller('UsersCtrl', function($scope, Users) {
+    Users.getAll(function(data) { 
+    	$scope.users = data; 
+    }, 
+    	function(err) { 
+    		alert(err); 
+    });
+  })
+  .factory("Users", function($http) {
+    return {
+      getAll: function(success, error) {
+        $http.get('external/users.json').success(success).error(error);
+      }
+    };
+  });
