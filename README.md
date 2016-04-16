@@ -73,4 +73,5 @@ e2e-tests/            --> end-to-end tests
 
 ## Lezioni
  1 - [Prima lezione: Startup della “spaghetti code” App](https://medium.com/@riccardocanella/df9217c71c9f)
+ 
  2 - [Seconda lezione: Services, Filtri e librerie esterne](https://medium.com/@riccardocanella/angularjs-creare-un-applicazione-passo-dopo-passo-2-step-b91f8872608c)

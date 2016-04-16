@@ -1,7 +1,12 @@
-<p>Questa pagina gestisce i nostri utenti.</p>
+<h2>Questa pagina gestisce i nostri utenti.</h2>
 <hr>
-Filtra : <input type="text" ng-model="filtro"> 
-<table>
+<form class="text-right">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Filtra</label>
+        <input type="text" ng-model="filtro">
+    </div>
+</form>
+<table class="table table-striped table-bordered">
     <thead>
         <tr>
             <th>Id</th>
