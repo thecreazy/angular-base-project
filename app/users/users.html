@@ -5,14 +5,20 @@
         <tr>
             <th>Id</th>
             <th>Email</th>
+            <th>First Name</th>
+            <th>Last Name</th>
             <th>Full Name</th>
+            <th>Age</th>
         </tr>
     </thead>
     <tbody>
         <tr ng-repeat="user in users">
             <td>{{$index}}</td>
             <td>{{user.email}}</td>
-            <td>{{user.fullName}}</td>
+            <td>{{user.name}}</td>
+            <td>{{user.surname}}</td>
+            <td>{{user.fullName | uppercase}}</td>
+            <td>{{user.age}}</td>
         </tr>
     </tbody>
 </table>
