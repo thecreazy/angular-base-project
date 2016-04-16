@@ -1,5 +1,6 @@
 <p>Questa pagina gestisce i nostri utenti.</p>
 <hr>
+Filtra : <input type="text" ng-model="filtro"> 
 <table>
     <thead>
         <tr>
@@ -12,7 +13,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr ng-repeat="user in users">
+        <tr ng-repeat="user in users | filter:filtro">
             <td>{{$index}}</td>
             <td>{{user.email}}</td>
             <td>{{user.name}}</td>
