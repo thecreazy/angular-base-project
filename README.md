@@ -74,8 +74,10 @@ e2e-tests/            --> end-to-end tests
 ```
 
 ## Lezioni
- 1 - [Prima lezione: Startup della “spaghetti code” App](https://medium.com/@riccardocanella/df9217c71c9f)
+ 1 - [Prima lezione: Startup della “spaghetti code” App](https://canellariccardo.it/angularjs-creare-un-applicazione-passo-dopo-passo-1deg-step/)
  
- 2 - [Seconda lezione: Services, Filtri e librerie esterne](https://medium.com/@riccardocanella/angularjs-creare-un-applicazione-passo-dopo-passo-2-step-b91f8872608c)
+ 2 - [Seconda lezione: Services, Filtri e librerie esterne](https://canellariccardo.it/angularjs-creare-un-applicazione-passo-dopo-passo-2deg-step/)
 
- 3 - [Terza lezione: Single Responsibility, IIFE e Gulp](https://medium.com/@riccardocanella/angularjs-creare-un-applicazione-passo-dopo-passo-3-step-398ca2101e49#.3ztosdgd9)
+ 3 - [Terza lezione: Single Responsibility, IIFE e Gulp](https://canellariccardo.it/angularjs-creare-un-applicazione-passo-dopo-passo-3deg-step/)
+ 
+ 4 - [Quarta lezione: Typescript, Yarn, TSLint](https://canellariccardo.it/angularjs-creare-un-applicazione-passo-dopo-passo-4deg-step/)
